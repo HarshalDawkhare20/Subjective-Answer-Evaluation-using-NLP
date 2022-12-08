@@ -1,0 +1,22 @@
+Operating system main purpose is to manage all resources of hardware and software that are connect with computer. Without operating system all computer system are helpless, because operating system create the interface between user and hardware.
+
+Mutual Exclusion is where a resource can be held by only one process at a time. Hold and Wait is where a process can hold a number of resources at a time and at the same time, it can request for other resources that are being held by some other process. No preemption is where a resource can't be preempted from the process by another process, forcefully.  Circular wait is a condition when the first process is waiting for the resource held by the second process, the second process is waiting for the resource held by the third process, and so on. 
+
+FCFS means First Come First Served. It is an operating system scheduling algorithm that automatically executes queued requests and processes in order of their arrival. Advantages is that it is simple and easy to understand. Disadvantages is that the process with less execution time suffer that is waiting time is often quite long.
+
+It is a banker algorithm used to avoid deadlock and allocate resources safely to each process in the computer system.  The banker's algorithm is named because it checks whether a person should be sanctioned a loan amount or not to help the bank system safely simulate allocation resources. 
+
+
+There are two types of fragmentation in OS which are given as: Internal fragmentation, and External fragmentation. Internal fragmentation happens when the memory is split into mounted sized blocks. External fragmentation happens when there’s a sufficient quantity of area within the memory to satisfy the memory request of a method.
+
+
+Spooling is a process in which data is temporarily held to be used and executed by a device, program or the system. Data is sent to and stored in memory or other volatile storage until the program or computer requests it for execution.
+
+A semaphore is a signaling mechanism, and a thread that is waiting on a semaphore can be signaled by another thread. There are two types of semaphore. Binary Semaphore and Count Semaphore
+
+
+Generally, on increasing the number of frames to a process’ virtual memory, its execution becomes faster as less number of page faults occur. Sometimes the reverse happens, i.e. more number of page faults occur when more frames are allocated to a process. This most unexpected result is termed as Belady’s Anomaly. Bélády’s anomaly is the name given to the phenomenon where increasing the number of page frames results in an increase in the number of page faults for a given memory access pattern.
+
+Responsiveness, Resource Sharing, Economy, Scalability
+
+Running, Waiting, Ready, New, Terminate

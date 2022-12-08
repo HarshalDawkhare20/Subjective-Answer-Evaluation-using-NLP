@@ -1,0 +1,254 @@
+[{
+	"It is designed to make sure that a computer system performs well by managing its computational activities." : 1,
+	"It provides an environment for the development and execution of programs." : 1
+},
+
+{
+  	"Mutual Exclusion Condition: It specifies that the resources involved are non-sharable." : 1,
+	"Hold and Wait Condition: It specifies that there must be a process that is holding a resource already allocated to it while waiting for additional resource that are currently being held by other processes." : 1,
+	"No-Preemptive Condition: Resources cannot be taken away while they are being used by processes." : 1,
+	"Circular Wait Condition: It is an explanation of the second condition. It specifies that the processes in the system form a circular list or a chain where each process in the chain is waiting for a resource held by next process in the chain." : 1
+},
+
+{
+	"FCFS stands for First Come, First Served." : 0.5,
+	"It is a type of scheduling algorithm." : 0.5, 
+	"In this scheme, if a process requests the CPU first, it is allocated to the CPU first." : 1, 
+	"Its implementation is managed by a FIFO queue." : 1,
+	"It is simple and easy to understand & implement." : 1,
+	"The process with less execution time suffer i.e. waiting time is often quite long." : 1,
+	"This effect results in lower CPU and device utilization." : 1,
+	"FCFS algorithm is particularly troublesome for time-sharing systems, where it is important that each user get a share of the CPU at regular intervals." : 1
+},
+
+{
+	"Banker's algorithm is used to avoid deadlock. It is the one of deadlock-avoidance method." : 1, 
+	"It is named as Banker's algorithm on the banking system where bank never allocates available cash in such a manner that it can no longer satisfy the requirements of all of its customers." : 1
+},
+
+{
+	"Internal fragmentation: It is occurred when we deal with the systems that have fixed size allocation units." : 1,
+	"External fragmentation: It is occurred when we deal with systems that have variable-size allocation units." : 1
+},
+
+{
+	"Spooling is a process in which data is temporarily gathered to be used and executed by a device, program or the system." : 1,
+	"It is associated with printing. When different applications send output to the printer at the same time, spooling keeps these all jobs into a disk file and queues them accordingly to the printer." : 1
+},
+
+{
+	"Semaphore is a protected variable or abstract data type that is used to lock the resource being used." : 1, 
+	"The value of the semaphore indicates the status of a common resource." : 1,
+	"Binary semaphores Counting semaphores" : 1
+},
+
+{
+	"Belady's Anomaly is also called FIFO anomaly." : 1,
+	"Usually, on increasing the number of frames allocated to a process virtual memory, the process execution is faster, because fewer page faults occur. Sometimes, the reverse happens, i.e., the execution time increases even when more frames are allocated to the process. This is Belady's Anomaly. This is true for certain page reference patterns." : 1
+},
+
+{
+	"Enhance the responsiveness to the users." : 0.5,
+	"Resource sharing within the process." : 0.5,
+	"Economical" : 0.5,
+	"Completely utilize the multiprocessing architecture." : 0.5
+},
+
+{
+	"New Process" : 0.2,
+	"Running Process" : 0.2,
+	"Waiting Process" : 0.2,
+	"Ready Process" : 0.2,
+	"Terminated Process" : 0.2
+},
+
+
+ER model
+{
+"ER model stands for an Entity-Relationship model." :1,
+"It is a high-level data model. ":1,
+"This model is used to define the data elements and relationship for a specified system.":1,
+},
+
+graph db
+{
+"It is used for storing vast amounts of data in a graph-like structure.":1,
+"Most commonly, social networking websites use the graph database.":1
+},
+
+normalization
+
+{
+"Database normalization is used in a database management system (DBMS), specifically with relational databases.":1, 
+"To decrease redundant information and therefore minimize data anomalies.":1,
+"Anomalies can occur from information that is poorly grouped or redundant and can cause a range of effects, such as incorrect data insertion or the deletion of a whole group of data.":1,
+"By using database normalization, these anomalies are avoided, and memory typically is freed up so that the database can function more efficiently.":1,
+"Normalization functions should be used periodically, about once a week, to keep the database fresh and free of unexpected problems.":1
+},
+
+advantage dbms
+{
+"Improved data sharing:The DBMS helps create an environment in which end users have better access to more and better-managed data.":1,
+"Such access makes it possible for end users to respond quickly to changes in their environment.":1,
+"Improved data security:\nThe more users access the data, the greater the risks of data security breaches.":1,
+"Corporations invest considerable amounts of time, effort, and money to ensure that corporate data are used properly.":1,
+"DBMS provides a framework for better enforcement of data privacy and security policies.\n3. Better data integration.":1,
+"Wider access to well-managed data promotes an integrated view of the organization’s operations and a clearer view of the big picture.":1,
+"It becomes much easier to see how actions in one segment of the company affect other segments.":1
+},
+
+RDBMS
+{
+"RDBMS stands for Relational Database Management System.":0.5,
+"RDBMS is the basis for SQL, and for all modern database systems like MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.":1,
+"Relational database management system (RDBMS) is a database management system (DBMS) that is based on the relational model as introduced by E. F. Codd.":2
+},
+
+DBMS architecture
+{
+"The design of a DBMS depends on its architecture.":0.5,
+"It can be centralized or decentralized or hierarchical.":1,
+"The architecture of a DBMS can be seen as either single tier or multi-tier.":1, 
+"An n-tier architecture divides the whole system into related but independent n modules, which can be independently modified, altered, changed, or replaced.":2
+},
+
+1-tier DBMS architecture
+{
+"In 1-tier architecture, the DBMS is the only entity where the user directly sits on the DBMS and uses it.":1,
+"Any changes done here will directly be done on the DBMS itself.":1,
+"It does not provide handy tools for end-users. Database designers and programmers normally prefer to use single-tier architecture.":1
+},
+
+2-tier DBMS architecture
+{
+"The 2-Tier architecture is same as basic client-server.":1,
+"In the two-tier architecture, applications on the client end can directly communicate with the database at the server side.":1,
+"For this interaction, API's like: ODBC, JDBC are used.":1,
+"The user interfaces and application programs are run on the client-side.":1,
+"The server side is responsible to provide the functionalities like: query processing and transaction management.":1, 
+"To communicate with the DBMS, client-side application establishes a connection with the server side.":1
+},
+
+3-tier DBMS architecture
+{
+"The 3-Tier architecture contains another layer between the client and server.":1,
+"In this architecture, client can't directly communicate with the server.":0.5,
+"The application on the client-end interacts with an application server which further communicates with the database system.":1,
+"End user has no idea about the existence of the database beyond the application server.":0.5, 
+"The database also has no idea about any other user beyond the application.":1,
+"The 3-Tier architecture is used in case of large web application.":1
+},
+
+Atomicity
+{
+"This property states that a transaction must be treated as an atomic unit, that is, either all of its operations are executed or none.":2,
+"There must be no state in a database where a transaction is left partially completed.":1,
+"States should be defined either before the execution of the transaction or after the execution/abortion/failure of the transaction.":2
+
+},
+
+Consistency 
+{
+"The database must remain in a consistent state after any transaction.":1, 
+"No transaction should have any adverse effect on the data residing in the database.":1, 
+"If the database was in a consistent state before the execution of a transaction, it must remain consistent after the execution of the transaction as well.":2
+},
+
+Isolation
+{
+"In a database system where more than one transaction are being executed simultaneously and in parallel.":0.5, 
+"the property of isolation states that all the transactions will be carried out and executed as if it is the only transaction in the system.":2,
+"No transaction will affect the existence of any other transaction.":1
+
+},
+
+Durability
+{
+"The database should be durable enough to hold all its latest updates even if the system fails or restarts.":1, 
+"If a transaction updates a chunk of data in a database and commits, then the database will hold the modified data.":1, 
+"If a transaction commits but the system fails before the data could be written on to the disk, then that data will be updated once the system springs back into action.":2
+
+},
+
+Active State
+{
+"The active state is the first state of every transaction.":0.5,
+"In this state, the transaction is being executed.":1,
+"For example, Insertion or deletion or updating a record is done here.":1, 
+"But all the records are still not saved to the database.":1
+
+},
+
+partially Commited state
+{
+"In the partially committed state, a transaction executes its final operation, but the data is still not saved to the database.":2,
+"In the total mark calculation example, a final display of the total marks step is executed in this state.":1
+
+},
+
+commited state
+{
+"A transaction is said to be in a committed state if it executes all its operations successfully.":1, 
+"In this state, all the effects are now permanently saved on the database system.":1
+},
+
+Failed state
+{
+"A transaction can go to the failed state, if one of the check fails or if the transaction is aborted during its active state.":2
+
+},
+
+abort state
+{
+"If any of the checks fail and the transaction has reached a failed state then the database recovery system will make sure that the database is in its previous consistent state.":2,
+"If not then it will abort or roll back the transaction to bring the database into a consistent state.":1
+
+},
+
+Relational db
+{
+"This database is based on the relational data model, which stores data in the form of rows(tuple) and columns(attributes) and together forms a table(relation)":2
+
+
+},
+centralized dbms
+{
+"The information(data) is stored at a centralized location and the users from different locations can access this data.":1,
+"This type of database contains application procedures that help the users to access the data even from a remote location.":1
+
+
+},
+
+distributed dbms
+{
+"In distributed systems, data is distributed among different database systems of an organization.":1,
+"These database systems are connected via communication links.":1,
+"Such links help the end-users to access the data easily.":1 
+},
+
+no sql dbms
+{
+"NoSQL is a type of database that is used for storing a wide range of data sets.":1,
+"It is not a relational database as it stores data not only in tabular form but in several different ways.":1
+
+},
+
+object oriented db
+{
+"The type of database that uses the object-based data model approach for storing data in the database system.":1, 
+"The data is represented and stored as objects which are similar to the objects used in the object-oriented programming language.":1
+
+},
+
+hierarchical db
+{
+"It is the type of database that stores data in the form of parent-children relationship nodes.":1,
+"Here, it organizes data in a tree-like structure.":1
+},
+
+graph db
+{
+"It is used for storing vast amounts of data in a graph-like structure.":1,
+"Most commonly, social networking websites use the graph database.":1
+}
+]

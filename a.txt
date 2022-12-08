@@ -1,0 +1,56 @@
+{
+	"FCFS stands for First Come, First Served." : 0.5,
+	"It is a type of scheduling algorithm." : 0.5, 
+	"In this scheme, if a process requests the CPU first, it is allocated to the CPU first." : 1, 
+	"Its implementation is managed by a FIFO queue." : 1,
+	"It is simple and easy to understand & implement." : 1,
+	"The process with less execution time suffer i.e. waiting time is often quite long." : 1,
+	"This effect results in lower CPU and device utilization." : 1,
+	"FCFS algorithm is particularly troublesome for time-sharing systems, where it is important that each user get a share of the CPU at regular intervals." : 1
+}
+
+
+FCFS stands for first come, first served 
+it is a type of scheduling algorithm 
+in this scheme , if a process requests the cpu first , it is allocated to the CPU first  marks 3.78
+its implementation is managed by fifo queue
+
+
+FCFS 
+FCFS
+FCFS
+FCFS  marks=0;
+FCFS
+FCFS
+
+FCFS stands for first come, first served  marks 2.31
+
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.  marks 2.31
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.
+FCFS stands for First Come, First Served.
+
+
+FCFS stands for First Come, First Served.
+It is a type of scheduling algorithm. 
+In this scheme, if a process requests the CPU first, it is allocated to the CPU first. 
+Its implementation is managed by a FIFO queue.
+It is simple and easy to understand & implement.
+The process with less execution time suffer i.e. waiting time is often quite long.
+This effect results in lower CPU and device utilization.
+FCFS algorithm is particularly troublesome for time-sharing systems, where it is important that each user get a share of the CPU at regular intervals.
+ 
+ 4.94
+
+Only keywords
+
+FCFS First served scheduling algorithm process CPU implement utilization troublesome  marks 1.31
+
+FCFS full form is first come first serve. It is a scheduling algorithm. Process id allocated to CPU if we request the CPU first.  marks 3.13
+
+This model is used to define the data elements for a specified system
+ER model stands for and Entity-Relationship model                           marks=1.71
